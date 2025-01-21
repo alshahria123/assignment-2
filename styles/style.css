@@ -120,6 +120,7 @@
 }
 .box-1{
     background-color: green;
+    text-align: center;
     padding: 30px;
     border-radius: 20px;
     width: 250px;
@@ -227,7 +228,7 @@
 }
 
 @media screen and (max-width: 576px) {
-    .h1, .item, .btn-1, .hite-box{
+    .h1, .item, .btn-1, .hite-box, .div-main{
         display: none;
     }
     .section{
@@ -243,6 +244,11 @@
         justify-content: center;
         align-items: center;
     }
+
+    .banner-title{
+        text-align: center;
+    }
+
     .bag{
         position: top left;
     }
@@ -259,6 +265,10 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 10px;
+    }
+
+    .box-color{
+        text-align: center;
     }
 
     .foot{
